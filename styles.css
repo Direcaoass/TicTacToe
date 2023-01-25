@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    text-align: center;
+  }
+
+.board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .boardGrid{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    padding: 4rem;
+        
+  }
+
+  .square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    gap:1rem;
+    font-size: 3rem;
+    
+    
+
+  }
