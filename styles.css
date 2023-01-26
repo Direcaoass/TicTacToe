@@ -7,6 +7,12 @@
     text-align: center;
   }
 
+.msgDisplay{
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 .board{
   display: flex;
   justify-content: center;
