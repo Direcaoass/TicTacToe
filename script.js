@@ -1,3 +1,4 @@
+"use strict";
 class TicTacToe {
     constructor() {
         this.X = "X";
