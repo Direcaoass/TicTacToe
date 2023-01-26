@@ -66,6 +66,7 @@ class TicTacToe {
     checkForDraw() {
         if (this.matchCount === 9) {
             this.messageDisplay.innerText = " Game OVER >> It's a draw!";
+            this.gameOver = true;
 
         }
     }
