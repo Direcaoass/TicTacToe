@@ -35,7 +35,16 @@
     border: 1px solid black;
     gap:1rem;
     font-size: 3rem;
-    
-    
+     
+  }
 
+
+  @media (max-width: 420px) {
+
+ .boardGrid{
+  grid-template-columns: repeat(3,90px);
+  grid-template-rows: repeat(3,90px);
+  padding: 1rem;
+     
+}
   }
